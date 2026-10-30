@@ -1,38 +1,55 @@
 import java.util.Scanner;
-class Produto{
+
+class Produto {
     String titulo;
     String descricao;
     double precounitario;
-    int qtdEstoque; 
+    int qtdEstoque;
 }
-public class TarefaProduto{
-    public static void main(String[] args){
+
+public class TarefaProduto {
+    public static void main(String[] args) {
         System.out.println("hello");
         Scanner sc = new Scanner(System.in);
         Produto p1 = new Produto();
         Produto p2 = new Produto();
 
         System.out.println("Produto 1");
-        System.out.print("titulo: ");
+        System.out.print("Digite o titulo: ");
         p1.titulo = sc.nextLine();
-        System.out.print("descricao: ");
+        System.out.print("Digite a descricao: ");
         p1.descricao = sc.nextLine();
-        System.out.print("precounitario: ");
+        System.out.print("Digite o preco unitario: ");
         p1.precounitario = sc.nextDouble();
-        System.out.print("Quantidade em estoque: ");
+        System.out.print("Digite a quantidade em estoque: ");
         p1.qtdEstoque = sc.nextInt();
 
-        System.out.println("Produto 2");
-System.out.print("titulo: ");
-p2.titulo = sc. nextLine();
-System.out.print("descricao: ");
-p2.descricao = sc.nextLine();
-System.out.print("precounitario: ");
-p2.precounitario = sc. nextDouble();
-System.out.print("Quantidade em estoque: ");
-p2.qtdEstoque = sc.nextInt();
+        sc.nextLine();
+        System.out.println("");
 
-System.out.println("Produto 1: " + p1.titulo + " | " + p1.descricao + " | R$ " + p1.precounitario + " | " + p1.qtdEstoque + "un. ");
-System.out.println("Produto 2: " + p2.titulo + " | " + p2.descricao  + " | R$ " + p2.precounitario + " | " + p2.qtdEstoque + " un.");
+        System.out.println("Produto 2");
+        System.out.print("Digite o titulo: ");
+        p2.titulo = sc.nextLine();
+        System.out.print("Digite a descricao: ");
+        p2.descricao = sc.nextLine();
+        System.out.print("Digite o preco unitario: ");
+        p2.precounitario = sc.nextDouble();
+        System.out.print("Digite a quantidade em estoque: ");
+        p2.qtdEstoque = sc.nextInt();
+
+        System.out.println("\nProdutos Cadastrados");
+
+        System.out.println("\nProduto 1");
+        System.out.println("Titulo: " + p1.titulo);
+        System.out.println("Descricao: " + p1.descricao);
+        System.out.println("Preco Unitario: " + p1.titulo);
+        System.out.println("Quatidade em Estoque: " + p1.titulo);
+
+        System.out.println("\nProduto 2");
+        System.out.println("Titulo: " + p2.titulo);
+        System.out.println("Descricao: " + p2.descricao);
+        System.out.println("Preco Unitario: " + p2.titulo);
+        System.out.println("Quatidade em Estoque: " + p2.titulo);
+
     }
-} 
+}
