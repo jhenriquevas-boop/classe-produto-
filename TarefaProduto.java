@@ -42,14 +42,14 @@ public class TarefaProduto {
         System.out.println("\nProduto 1");
         System.out.println("Titulo: " + p1.titulo);
         System.out.println("Descricao: " + p1.descricao);
-        System.out.println("Preco Unitario: " + p1.titulo);
-        System.out.println("Quatidade em Estoque: " + p1.titulo);
+        System.out.println("Preco Unitario: " + p1.precounitario);
+        System.out.println("Quatidade em Estoque: " + p1.qtdEstoque);
 
         System.out.println("\nProduto 2");
         System.out.println("Titulo: " + p2.titulo);
         System.out.println("Descricao: " + p2.descricao);
-        System.out.println("Preco Unitario: " + p2.titulo);
-        System.out.println("Quatidade em Estoque: " + p2.titulo);
+        System.out.println("Preco Unitario: " + p2.precounitario);
+        System.out.println("Quatidade em Estoque: " + p2.qtdEstoque);
 
     }
 }
