@@ -9,7 +9,6 @@ class Produto {
 
 public class TarefaProduto {
     public static void main(String[] args) {
-        System.out.println("hello");
         Scanner sc = new Scanner(System.in);
         Produto p1 = new Produto();
         Produto p2 = new Produto();
